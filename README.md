@@ -18,3 +18,5 @@ The paper is accepted to IEEE TIM! \
 
 ### Reference
 The code is developed based on [camera calibration cpp](https://github.com/enazoe/camera_calibration_cpp)
+https://github.com/DIAL-RPI/Attention-Reg
+https://github.com/NicolasHHH/Cross_Attention_Calibration
