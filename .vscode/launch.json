@@ -1,0 +1,56 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+      {
+        "name": "CALIBRA",
+        "type": "cppdbg",
+        "request": "launch",
+        // "program": "${fileDirname}/${fileBasenameNoExtension}",  // 可执行文件的路径‘
+        "program": "/home/user/use6_github/JointCalibC2L/bin/lidar2camera",
+        "args": ["/home/user/UserDisk/py_scripts/2", "data/circle.csv","100","300"],
+        "stopAtEntry": false,   
+        "cwd": "${workspaceFolder}/",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+      }
+    ]
+  }
+
+
+
+//  {
+//      "version": "0.2.0",
+//     "configurations": [     
+//       {
+//         "name": "lidar",
+//         "type": "cppdbg",
+//         "request": "launch",
+//         // "program": "${fileDirname}/${fileBasenameNoExtension}",  // 可执行文件的路径‘
+//         // "program": "/home/user/use6_github/JointCalibC2L/bin/lidar2camera",
+//         "program": "/home/user/use6_github/JointCalibC2L/tool/LidarCircleDetect/bin/run_lidardetection",
+//         "args": ["/home/user/use6_github/JointCalibC2L/tool/LidarCircleDetect/data/"],
+//         "stopAtEntry": false,   
+//         "cwd": "${workspaceFolder}/",
+//         "environment": [],
+//         "externalConsole": false,
+//         "MIMode": "gdb",
+//         "setupCommands": [
+//           {
+//             "description": "Enable pretty-printing for gdb",
+//             "text": "-enable-pretty-printing",
+//             "ignoreFailures": true
+//           }
+//         ],
+//       }
+//     ]
+//   }
+
