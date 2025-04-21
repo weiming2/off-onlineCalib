@@ -6,23 +6,6 @@ This is a project for  camera-LiDAR calibration
 The paper is accepted to IEEE TIM! \
 
 
-
-## OFFLINE Prerequisites
- - Cmake
- - Opencv 2.4.13
- - PCL 1.9
-
-## OFFLINE Compile
-Compile in their respective folders
-
-```shell
-# mkdir build
-mkdir -p build && cd build
-# build
-cmake .. && make
-```
-
-
 ## ONLINE 
     ONLINE-Calib will be released soon.
 
